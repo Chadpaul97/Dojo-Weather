@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #8db1de;
+}
+#navbarbox{
+    background-color: #05336b;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbartitle{
+    width: 1200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.navbartitle h2{
+    height: 50px;
+    font-size: 35px;
+}
+.cities{
+    display: flex;
+    gap: 65px;
+}
+
+#citybox{
+    height: 80px;
+    background-color: #375c89;
+    display: flex;
+    justify-content: center;
+}
+
+.currentcity{
+    border-bottom: 2px solid black;
+    border-radius: 3%;
+    height: 70px;
+    width: 1200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperatureswitch{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#degrees{
+    font-size: 19px;
+}
+
+.lineacross{
+    size: 15px;
+}
+
+#daysofweek{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 60px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.days{
+    width: 256px;
+    height: 357px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.days p{
+    font-size: 30px;
+}
+
+.temps{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.hot{
+    color: red;
+    font-weight: bold;
+}
+
+.cold{
+    color: blue;
+    font-weight: bold;
+}
+
+.text {
+    width: 70%;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+.cookie-policy {
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    width: 900px;
+    height: 170px;
+    padding: 15px;
+    border: 2px solid #999;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
